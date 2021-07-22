@@ -1,3 +1,7 @@
+#!/bin/bash
+
+cd kubernetes_voting_app
+
 kubectl create -f voting-app-pod.yaml
 kubectl create -f voting-app-service.yaml
 
